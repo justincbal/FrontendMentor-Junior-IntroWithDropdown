@@ -1,0 +1,45 @@
+@import './constants.css';
+
+a {
+    text-decoration: none;
+    color: var(--clr-black);
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.Menu:hover {
+    cursor: pointer;
+}
+
+.MenuIcon {
+    display: grid;
+    align-items: center;
+}
+
+header {
+    display: flex;
+}
+
+.test::after {
+    content: url(/src/assets/images/icon-arrow-down.svg);
+}
+
+.test:hover::after {
+    content: url(/src/assets/images/icon-arrow-up.svg);
+}
+
+
+* {
+    border: 1px solid red;
+}
+
+@media (min-width: 800px) {
+    .Menu{ 
+        display: none;
+    }
+}

@@ -1,45 +1,163 @@
-@import './constants.css';
+@import "./constants.css";
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: var(--clr-gray);
+  margin-right: auto;
+  font-size: 18px;
+}
+
+a:hover {
     color: var(--clr-black);
-    margin-right: auto;
-    font-size: 18px;
 }
 
 .logo {
-    font-weight: 700;
-    font-size: 2.3rem;
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: var(--clr-black);
 }
 
 .Menu:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .MenuIcon {
+  display: grid;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  padding: 10px;
+}
+
+.test::after {
+  content: url(/src/assets/images/icon-arrow-down.svg);
+}
+
+.test:hover::after {
+  content: url(/src/assets/images/icon-arrow-up.svg);
+}
+
+nav {
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 50vw;
+  padding: 10px;
+  padding-top: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.darkLayer {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.669);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.closeMenu {
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    aspect-ratio: 1/1;
     display: grid;
     align-items: center;
 }
 
-header {
+ul {
+  list-style: none;
+}
+
+.mainNav {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.featSubNav {
+  display: none;
+  padding-left: 20px;
+}
+
+.featItem {
     display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
 }
 
-.test::after {
-    content: url(/src/assets/images/icon-arrow-down.svg);
+.item {
+    padding: 10px;
+    
 }
 
-.test:hover::after {
-    content: url(/src/assets/images/icon-arrow-up.svg);
+.featItem > img {
+    aspect-ratio: 1/1;
+    width: 17px;
+}
+
+.featItem:hover {
+    cursor: pointer;
 }
 
 
-* {
-    border: 1px solid red;
+.compSubNav {
+  display: none;
+  padding-left: 20px;
 }
+
+
+.arrow {
+    margin-left: 10px;
+    transition: transform .5s;
+}
+
+.arrowAnimation {
+    transform: rotate(900deg);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+
+.buttons > button {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid var(--clr-gray);
+    cursor: pointer;
+    color: var(--clr-gray);
+    
+}
+
+.buttons > button:hover {
+    color: black;
+    border-color: var(--clr-black);
+}
+
+.loginButton {
+    border: none !important;
+}
+
+
+
+/* * {
+  border: 1px dotted rgb(191, 191, 191)
+} */
 
 @media (min-width: 800px) {
-    .Menu{ 
-        display: none;
-    }
+  .Menu {
+    display: none;
+  }
 }

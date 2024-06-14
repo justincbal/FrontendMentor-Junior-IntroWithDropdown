@@ -7,7 +7,7 @@ const Main = () => {
         <section className="hero">
           <img
             className="heroImg"
-            src="/src/assets/images/image-hero-mobile.png"
+            src="/image-hero-mobile.png"
             alt=""
           />
         </section>

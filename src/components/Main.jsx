@@ -19,10 +19,10 @@ const Main = () => {
           </p>
           <button className="lMButton">Learn more</button>
           <div className="logos">
-            <img src="/src/assets/images/client-databiz.svg" alt="" />
-            <img src="/src/assets/images/client-audiophile.svg" alt="" />
-            <img src="/src/assets/images/client-meet.svg" alt="" />
-            <img src="/src/assets/images/client-maker.svg" alt="" />
+            <img src="/client-databiz.svg" alt="" />
+            <img src="/client-audiophile.svg" alt="" />
+            <img src="/client-meet.svg" alt="" />
+            <img src="/client-maker.svg" alt="" />
           </div>
         </section>
       </main>

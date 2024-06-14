@@ -60,13 +60,13 @@ const Navbar = () => {
         <div className="MenuIcon" onClick={() => openMenu()}>
           <img
             className="Menu"
-            src="/src/assets/images/icon-menu.svg"
+            src="/icon-menu.svg"
             alt="Menu Icon"
           />
         </div>
         <nav className="mobileMenu">
           <div className="closeMenu" onClick={() => handleClose()}>
-            <img src="/src/assets/images/icon-close-menu.svg" alt="" />
+            <img src="/icon-close-menu.svg" alt="" />
           </div>
           <ul className="mainNav">
             <div className="feat item">
@@ -74,25 +74,25 @@ const Navbar = () => {
                 Features
                 <img
                   className="featArrow arrow"
-                  src="/src/assets/images/icon-arrow-down.svg"
+                  src="/icon-arrow-down.svg"
                   alt=""
                 />
               </a>
               <ul className="featSubNav">
                 <li className="featItem">
-                  <img src="/src/assets/images/icon-todo.svg" alt="" />
+                  <img src="/icon-todo.svg" alt="" />
                   <a href="#">Todo List</a>
                 </li>
                 <li className="featItem">
-                  <img src="/src/assets/images/icon-calendar.svg" alt="" />
+                  <img src="/icon-calendar.svg" alt="" />
                   <a href="#">Calendar</a>
                 </li>
                 <li className="featItem">
-                  <img src="/src/assets/images/icon-reminders.svg" alt="" />
+                  <img src="/icon-reminders.svg" alt="" />
                   <a href="#">Reminders</a>
                 </li>
                 <li className="featItem">
-                  <img src="/src/assets/images/icon-planning.svg" alt="" />
+                  <img src="/icon-planning.svg" alt="" />
                   <a href="#">Planning</a>
                 </li>
               </ul>
@@ -102,7 +102,7 @@ const Navbar = () => {
                 Company
                 <img
                   className="compArrow arrow"
-                  src="/src/assets/images/icon-arrow-down.svg"
+                  src="/icon-arrow-down.svg"
                   alt=""
                 />
               </a>

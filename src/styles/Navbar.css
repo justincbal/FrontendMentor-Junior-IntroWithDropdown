@@ -162,6 +162,10 @@ ul {
     display: none;
   }
 
+  .darkLayer {
+    display: none;
+  }
+
   .closeMenu {
     display: none;
   }

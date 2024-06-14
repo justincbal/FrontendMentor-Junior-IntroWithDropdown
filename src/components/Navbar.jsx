@@ -7,16 +7,15 @@ const Navbar = () => {
 
   const handleClose = () => {
     const mobileMenu = document.querySelector(".mobileMenu");
-    const darkLayer = document.querySelector('.darkLayer');
-    darkLayer.style.display = 'none';
+    const darkLayer = document.querySelector(".darkLayer");
+    darkLayer.style.display = "none";
     mobileMenu.style.display = "none";
-    
   };
 
   const openMenu = () => {
     const mobileMenu = document.querySelector(".mobileMenu");
-    const darkLayer = document.querySelector('.darkLayer');
-    darkLayer.style.display = 'block';
+    const darkLayer = document.querySelector(".darkLayer");
+    darkLayer.style.display = "block";
     mobileMenu.style.display = "flex";
   };
 
@@ -52,8 +51,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="darkLayer">
-      </div>
+      <div className="darkLayer"></div>
       <header>
         <a href="#" className="logo">
           snap
@@ -67,7 +65,7 @@ const Navbar = () => {
           />
         </div>
         <nav className="mobileMenu">
-          <div  className="closeMenu" onClick={() => handleClose()}>
+          <div className="closeMenu" onClick={() => handleClose()}>
             <img src="/src/assets/images/icon-close-menu.svg" alt="" />
           </div>
           <ul className="mainNav">
@@ -82,7 +80,7 @@ const Navbar = () => {
               </a>
               <ul className="featSubNav">
                 <li className="featItem">
-                  <img src="/src/assets/images/icon-todo.svg" alt="" />
+                  <img src="../assets/images/icon-todo.svg" alt="" />
                   <a href="#">Todo List</a>
                 </li>
                 <li className="featItem">
@@ -127,11 +125,10 @@ const Navbar = () => {
               <a href="#">About</a>
             </li>
             <div className="buttons">
-            <button className="loginButton">Login</button>
-            <button>Register</button>
-          </div>
+              <button className="loginButton">Login</button>
+              <button>Register</button>
+            </div>
           </ul>
-          
         </nav>
       </header>
     </>

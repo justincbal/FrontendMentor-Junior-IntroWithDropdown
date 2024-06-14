@@ -54,7 +54,7 @@ p {
     }
 
    .heroImg {
-    content: url('/src/assets/images/image-hero-desktop.png');
+    content: url('/image-hero-desktop.png');
     object-fit: contain;
     height: 100%;
    }

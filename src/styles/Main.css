@@ -37,10 +37,59 @@ p {
     font-weight: 500;
 }
 
-footer {
-    min-width: 100vw;
+.logos {
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 4rem;
+}
+
+@media (min-width: 800px) {
+
+    .hero {
+        min-width: 50vw;
+        max-height: 80vh;
+        order: 1    ;
+    }
+
+   .heroImg {
+    content: url('/src/assets/images/image-hero-desktop.png');
+    object-fit: contain;
+    height: 100%;
+   }
+
+   .textSec {
+    /* min-width: 50vw; */
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    padding-top: 3rem;
+   }
+
+   h2 {
+    font-size: 4rem;
+   }
+
+   .logos {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 0;
+   }
+
+   p {
+    text-align: start;
+   }
+
+
+
+   main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    padding: 3rem 5rem;
+    gap: 3rem;
+   }
+
+   
 }

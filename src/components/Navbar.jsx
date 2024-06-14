@@ -67,7 +67,7 @@ const Navbar = () => {
           />
         </div>
         <nav className="mobileMenu">
-          <div className="closeMenu" onClick={() => handleClose()}>
+          <div  className="closeMenu" onClick={() => handleClose()}>
             <img src="/src/assets/images/icon-close-menu.svg" alt="" />
           </div>
           <ul className="mainNav">

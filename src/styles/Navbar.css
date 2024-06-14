@@ -163,7 +163,7 @@ ul {
   }
 
   .darkLayer {
-    display: none;
+    display: none !important;
   }
 
   .closeMenu {

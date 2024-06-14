@@ -80,7 +80,7 @@ const Navbar = () => {
               </a>
               <ul className="featSubNav">
                 <li className="featItem">
-                  <img src="./src/assets/images/icon-todo.svg" alt="" />
+                  <img src="/assets/images/icon-todo.svg" alt="" />
                   <a href="#">Todo List</a>
                 </li>
                 <li className="featItem">
